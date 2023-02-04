@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ptungbun <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/01 15:42:39 by ptungbun          #+#    #+#             */
-/*   Updated: 2022/03/25 16:51:06 by ptungbun         ###   ########.fr       */
+/*   Updated: 2023/02/04 12:59:08 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
-#include<stdio.h>
 
 static size_t	ft_isstrmatch(char *s1, char *s2, size_t i, size_t len)
 {
